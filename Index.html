@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="अनुष्का बुटिक - डाबला में सर्वश्रेष्ठ लेडीज फैशन स्टोर, हम डिजाइनर साड़ी, लहँगा, सूट, कॉस्मेटिक्स और फैशन एक्सेसरीज प्रदान करते हैं">
+  <meta name="keywords" content="अनुष्का बुटिक, डाबला फैशन स्टोर, लेडीज कपड़े, डिजाइनर साड़ी, लहँगा, कॉस्मेटिक्स">
+  <meta property="og:title" content="अनुष्का बुटिक - डाबला का प्रमुख लेडीज फैशन स्टोर">
+  <meta property="og:description" content="डिजाइनर कपड़े और कॉस्मेटिक उत्पादों की विस्तृत श्रृंखला">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://anushkaboutique.com">
+  <title>अनुष्का बुटिक - डाबला का प्रमुख लेडीज फैशन एवं कॉस्मेटिक्स स्टोर</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    :root {
+      --primary: #6a1b9a;
+      --secondary: #4a148c;
+      --accent: #ffab00;
+      --light: #fff8e1;
+      --dark: #3e2723;
+      --text-light: #f5f5f5;
+      --whatsapp: #25D366;
+    }
+    
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', 'Noto Sans Devanagari', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: var(--text-light);
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 10px;
+      background: var(--accent);
+    }
+    
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    
+    nav {
+      background-color: var(--secondary);
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+    
+    nav li {
+      margin: 0 15px;
+    }
+    
+    nav a {
+      color: var(--text-light);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+      padding: 5px 10px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+    }
+    
+    nav a i {
+      margin-right: 8px;
+    }
+    
+    nav a:hover {
+      color: var(--accent);
+      background: rgba(255,255,255,0.1);
+    }
+    
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+      color: var(--primary);
+      position: relative;
+    }
+    
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: var(--accent);
+      margin: 10px auto;
+    }
+    
+    .highlight {
+      font-weight: bold;
+      color: var(--primary);
+    }
+    
+    .services {
+      background: #fff3e0;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    
+    .service-card {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      position: relative;
+    }
+    
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .service-card i {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+    
+    .service-card h3 {
+      color: var(--secondary);
+      margin-top: 0;
+    }
+    
+    .gallery {
+      margin: 50px 0;
+    }
+    
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    
+    .image-item {
+      height: 250px;
+      overflow: hidden;
+      border-radius: 8px;
+      position: relative;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+    
+    .image-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s;
+    }
+    
+    .image-item:hover img {
+      transform: scale(1.1);
+    }
+    
+    .image-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(106, 27, 154, 0.8);
+      color: white;
+      padding: 10px;
+      transform: translateY(100%);
+      transition: transform 0.3s;
+    }
+    
+    .image-item:hover .image-caption {
+      transform: translateY(0);
+    }
+    
+    .order-btn {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: var(--whatsapp);
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 2;
+    }
+    
+    .image-item:hover .order-btn {
+      opacity: 1;
+    }
+    
+    .order-btn i {
+      margin-right: 5px;
+    }
+    
+    .contact {
+      background: #fce4ec;
+      padding: 40px;
+      border-radius: 10px;
+      margin: 40px auto;
+      max-width: 800px;
+    }
+    
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    
+    .contact-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    
+    .contact-card i {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+    
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: all 0.3s;
+      border: 2px solid var(--primary);
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background: transparent;
+      color: var(--primary);
+    }
+    
+    .btn-whatsapp {
+      background: var(--whatsapp);
+      border-color: var(--whatsapp);
+    }
+    
+    .btn-whatsapp:hover {
+      background: transparent;
+      color: var(--whatsapp);
+    }
+    
+    .whatsapp-btn {
+      background: var(--whatsapp);
+      border-color: var(--whatsapp);
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 99;
+      display: flex;
+      align-items: center;
+      padding: 12px 20px;
+      box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+      animation: pulse 2s infinite;
+    }
+    
+    .whatsapp-btn:hover {
+      background: white;
+      color: var(--whatsapp);
+    }
+    
+    .whatsapp-btn i {
+      margin-right: 8px;
+      font-size: 1.2rem;
+    }
+    
+    footer {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: var(--text-light);
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 50px;
+    }
+    
+    .social-links {
+      margin: 20px 0;
+    }
+    
+    .social-links a {
+      color: var(--text-light);
+      font-size: 1.5rem;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    
+    .social-links a:hover {
+      color: var(--accent);
+    }
+    
+    #gallery .product-grid {
+  justify-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+   .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+  justify-items: center; /* This centers the grid items horizontally */
+  max-width: 1200px; /* Add a max-width to prevent stretching too wide */
+  margin-left: auto; /* These two margin properties center the grid itself */
+  margin-right: auto;
+}
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px auto;
+  justify-items: center;
+  max-width: 1200px;
+}
+    
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      position: relative;
+    }
+    
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .product-image {
+      height: 200px;
+      overflow: hidden;
+    }
+    
+    .product-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s;
+    }
+    
+    .product-card:hover .product-image img {
+      transform: scale(1.05);
+    }
+    
+    .product-details {
+      padding: 15px;
+    }
+    
+    .product-title {
+      font-weight: bold;
+      margin: 0 0 5px 0;
+      color: var(--secondary);
+    }
+    
+    .product-description {
+      font-size: 0.9rem;
+      color: #555;
+      margin: 5px 0 10px 0;
+    }
+    
+    .product-order-btn {
+      display: block;
+      width: 100%;
+      background: var(--whatsapp);
+      color: white;
+      text-align: center;
+      padding: 8px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    
+    .product-order-btn:hover {
+      background: #128C7E;
+    }
+    
+    .product-order-btn i {
+      margin-right: 5px;
+    }
+    
+    .testimonials {
+      background: #f3e5f5;
+      padding: 40px;
+      border-radius: 10px;
+      margin: 40px 0;
+    }
+    
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    
+    .testimonial-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    
+    .testimonial-text {
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+    
+    .testimonial-author {
+      font-weight: bold;
+      color: var(--primary);
+    }
+    
+    .opening-hours {
+      background: #e8f5e9;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+    
+    .hours-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    
+    .hours-table tr:nth-child(even) {
+      background: rgba(255,255,255,0.5);
+    }
+    
+    .hours-table td {
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .hours-table td:last-child {
+      font-weight: bold;
+      color: var(--primary);
+    }
+    
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+      }
+      70% {
+        box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
+    }
+ 
+    .menu-toggle {
+  display: none; /* Hidden by default */
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    background: var(--primary);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  nav li {
+    margin: 5px 0;
+    text-align: center;
+  }
+}
+
+  .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.9);
+      overflow: auto;
+    }
+    
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      animation: zoom 0.6s;
+    }
+    
+    @keyframes zoom {
+      from {transform: scale(0.1)}
+      to {transform: scale(1)}
+    }
+    
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    
+    .close:hover {
+      color: var(--accent);
+    }
+    
+    .gallery-category {
+      display: none;
+    }
+    
+    .gallery-category.active {
+      display: grid;
+    }
+    
+    .category-tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    
+    .category-tab {
+      padding: 10px 20px;
+      margin: 0 10px;
+      background: var(--primary);
+      color: white;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s;
+      border: 2px solid var(--primary);
+    }
+    
+    .category-tab:hover, .category-tab.active {
+      background: transparent;
+      color: var(--primary);
+    }
+    
+    .gallery-nav {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1001;
+    }
+    
+    .gallery-nav-btn {
+      color: white;
+      font-size: 2rem;
+      padding: 10px 20px;
+      cursor: pointer;
+      background: rgba(0,0,0,0.5);
+      border: none;
+    }
+    
+    .gallery-nav-btn:hover {
+      color: var(--accent);
+    }
+    
+    .prev-btn {
+      border-radius: 0 5px 5px 0;
+    }
+    
+    .next-btn {
+      border-radius: 5px 0 0 5px;
+    }
+    
+    .caption {
+      text-align: center;
+      color: white;
+      padding: 10px 0;
+      font-size: 1.2rem;
+    }
+    
+    .thumbnail-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+    
+    .thumbnail {
+      width: 60px;
+      height: 60px;
+      margin: 5px;
+      cursor: pointer;
+      opacity: 0.6;
+      transition: opacity 0.3s;
+    }
+    
+    .thumbnail:hover, .thumbnail.active {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>अनुष्का बुटिक</h1>
+    <p>लेडीज टेलर्स एवं कॉस्मेटिक सामान केंद्र</p>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#home"><i class="fas fa-home"></i> होम</a></li>
+      <li><a href="#products"><i class="fas fa-shopping-bag"></i> उत्पाद</a></li>
+      <li><a href="#services"><i class="fas fa-concierge-bell"></i> सेवाएं</a></li>
+      <li><a href="#gallery"><i class="fas fa-images"></i> गैलरी</a></li>
+      <li><a href="#contact"><i class="fas fa-address-card"></i> संपर्क</a></li>
+    </ul>
+  </nav>
+  
+  <section id="home">
+    <div class="services">
+      <h2 class="section-title">हमारे बारे में</h2>
+      <p style="text-align: center; font-size: 1.1rem;">
+        अनुष्का बुटिक डाबला में स्थित एक प्रमुख लेडीज फैशन और कॉस्मेटिक स्टोर है। हम 10+ वर्षों से गुणवत्तापूर्ण कपड़े और सौंदर्य उत्पाद प्रदान कर रहे हैं। हमारा मिशन ग्राहकों को सर्वोत्तम गुणवत्ता और नवीनतम फैशन ट्रेंड्स उचित मूल्य पर उपलब्ध कराना है।
+      </p>
+      
+      <div class="opening-hours">
+        <h3 style="text-align: center; color: var(--primary); margin-top: 0;">खुलने का समय</h3>
+        <table class="hours-table">
+          <tr>
+            <td>सोमवार - शुक्रवार</td>
+            <td>सुबह 07:00 - रात 8:00</td>
+          </tr>
+          <tr>
+            <td>शनिवार</td>
+            <td>सुबह 07:00 - रात 9:00</td>
+          </tr>
+          <tr>
+            <td>रविवार</td>
+            <td>सुबह 08:00 - रात 7:00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+    <div class="testimonials">
+      <h2 class="section-title">ग्राहक समीक्षाएं</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-text">
+            "अनुष्का बुटिक से मैंने अपनी शादी का लहंगा खरीदा, बहुत ही सुंदर डिजाइन और उच्च गुणवत्ता वाला कपड़ा। सिलाई भी बहुत अच्छी थी।"
+          </div>
+          <div class="testimonial-author">- प्रिया शर्मा</div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-text">
+            "यहां के कॉस्मेटिक उत्पाद असली और सस्ते दामों में मिलते हैं। मैं नियमित रूप से यहां से खरीदारी करती हूं।"
+          </div>
+          <div class="testimonial-author">- मीनाक्षी पाटीदार</div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-text">
+            "स्टाफ बहुत ही मददगार और विनम्र है। उन्होंने मुझे मेरे शरीर के अनुसार सही डिजाइन चुनने में मदद की।"
+          </div>
+          <div class="testimonial-author">- रीना जैन</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="products">
+    <h2 class="section-title">हमारे उत्पाद</h2>
+    <p style="text-align: center; margin-bottom: 30px;">व्हाट्सएप पर ऑर्डर करने के लिए किसी भी उत्पाद पर क्लिक करें</p>
+    
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-image">
+          <img src="Image/Products/sareephoto.jpg" alt="डिजाइनर साड़ी">
+        </div>
+        <div class="product-details">
+          <h3 class="product-title">डिजाइनर साड़ी</h3>
+          <div class="product-description">हैंडवर्क और जरी वर्क के साथ प्रीमियम क्वालिटी साड़ी</div>
+          <a href="https://wa.me/917982388702?text=मुझे%20डिजाइनर%20साड़ी%20के%20बारे%20में%20जानकारी%20चाहिए" class="product-order-btn">
+            <i class="fab fa-whatsapp"></i> ऑर्डर करें
+          </a>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image">
+          <img src="Image/Products/Lenghaphoto.jpg" alt="डिजाइनर लहँगा">
+        </div>
+        <div class="product-details">
+          <h3 class="product-title">डिजाइनर लहँगा</h3>
+          <div class="product-description">शादी और त्योहारों के लिए सुंदर लहँगा सेट</div>
+          <a href="https://wa.me/917982388702?text=मुझे%20डिजाइनर%20लहँगा%20के%20बारे%20में%20जानकारी%20चाहिए" class="product-order-btn">
+            <i class="fab fa-whatsapp"></i> ऑर्डर करें
+          </a>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image">
+          <img src="Image/Products/kurtiphoto.jpg" alt="सूट पीस">
+        </div>
+        <div class="product-details">
+          <h3 class="product-title">सूट पीस</h3>
+          <div class="product-description">रोजमर्रा और पार्टी वियर के लिए स्टाइलिश सूट</div>
+          <a href="https://wa.me/917982388702?text=मुझे%20सूट%20पीस%20के%20बारे%20में%20जानकारी%20चाहिए" class="product-order-btn">
+            <i class="fab fa-whatsapp"></i> ऑर्डर करें
+          </a>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image">
+          <img src="Image/Products/CosmaticPhoto.jpg" alt="कॉस्मेटिक किट">
+        </div>
+        <div class="product-details">
+          <h3 class="product-title">कॉस्मेटिक किट</h3>
+          <div class="product-description">प्रोफेशनल मेकअप के लिए कॉस्मेटिक सेट</div>
+          <a href="https://wa.me/917982388702?text=मुझे%20कॉस्मेटिक%20किट%20के%20बारे%20में%20जानकारी%20चाहिए" class="product-order-btn">
+            <i class="fab fa-whatsapp"></i> ऑर्डर करें
+          </a>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image">
+          <img src="Image/Products/DesignerPursePhoto.jpg" alt="डिजाइनर पर्स">
+        </div>
+        <div class="product-details">
+          <h3 class="product-title">डिजाइनर पर्स</h3>
+          <div class="product-description">स्टाइलिश और ट्रेंडी हैंडबैग और पर्स</div>
+          <a href="https://wa.me/917982388702?text=मुझे%20डिजाइनर%20पर्स%20के%20बारे%20में%20जानकारी%20चाहिए" class="product-order-btn">
+            <i class="fab fa-whatsapp"></i> ऑर्डर करें
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="https://wa.me/917982388702?text=मुझे%20अनुष्का%20बुटिक%20के%20सभी%20उत्पादों%20की%20जानकारी%20चाहिए" class="btn btn-whatsapp">
+        <i class="fab fa-whatsapp"></i> सभी उत्पाद देखें
+      </a>
+    </div>
+  </section>
+  
+  <section id="services">
+    <h2 class="section-title">हमारी सेवाएं</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fas fa-tshirt"></i>
+        <h3>डिजाइनर कपड़े</h3>
+        <p>सुंदर लहँगा, ब्लाउज, सूट, चुनरी, और अन्य परंपरागत वस्त्रों की विस्तृत श्रृंखला</p>
+        <a href="https://wa.me/917982388702?text=मुझे%20डिजाइनर%20कपड़ों%20के%20बारे%20में%20जानकारी%20चाहिए" class="btn" style="margin-top: 15px; display: inline-block; padding: 8px 15px; font-size: 0.9rem;">
+          <i class="fab fa-whatsapp"></i> पूछताछ करें
+        </a>
+      </div>
+      
+      <div class="service-card">
+        <i class="fas fa-palette"></i>
+        <h3>कॉस्मेटिक्स</h3>
+        <p>सभी प्रकार के लेडीज कॉस्मेटिक सामान और सौंदर्य उत्पाद उपलब्ध</p>
+        <a href="https://wa.me/917982388702?text=मुझे%20कॉस्मेटिक%20उत्पादों%20के%20बारे%20में%20जानकारी%20चाहिए" class="btn" style="margin-top: 15px; display: inline-block; padding: 8px 15px; font-size: 0.9rem;">
+          <i class="fab fa-whatsapp"></i> पूछताछ करें
+        </a>
+      </div>
+      
+      <div class="service-card">
+        <i class="fas fa-tags"></i>
+        <h3>सस्ती दरें</h3>
+        <p>गुणवत्तापूर्ण उत्पाद बाजार से कम दामों पर उपलब्ध</p>
+        <a href="https://wa.me/917982388702?text=मुझे%20मौजूदा%20ऑफर्स%20के%20बारे%20में%20जानकारी%20चाहिए" class="btn" style="margin-top: 15px; display: inline-block; padding: 8px 15px; font-size: 0.9rem;">
+          <i class="fab fa-whatsapp"></i> पूछताछ करें
+        </a>
+      </div>
+      
+      <div class="service-card">
+        <i class="fas fa-truck"></i>
+        <h3>घर डिलीवरी</h3>
+        <p>दो ऑर्डर के बाद पार्सल सुविधा उपलब्ध</p>
+        <a href="https://wa.me/917982388702?text=मुझे%20डिलीवरी%20सुविधा%20के%20बारे%20में%20जानकारी%20चाहिए" class="btn" style="margin-top: 15px; display: inline-block; padding: 8px 15px; font-size: 0.9rem;">
+          <i class="fab fa-whatsapp"></i> पूछताछ करें
+        </a>
+      </div>
+      
+      <div class="service-card">
+        <i class="fas fa-cut"></i>
+        <h3>सिलाई सेवाएं</h3>
+        <p>कस्टम डिजाइन और सिलाई सेवाएं उपलब्ध</p>
+        <a href="https://wa.me/917982388702?text=मुझे%20सिलाई%20सेवाओं%20के%20बारे%20में%20जानकारी%20चाहिए" class="btn" style="margin-top: 15px; display: inline-block; padding: 8px 15px; font-size: 0.9rem;">
+          <i class="fab fa-whatsapp"></i> पूछताछ करें
+        </a>
+      </div>
+      
+      <div class="service-card">
+        <i class="fas fa-gem"></i>
+        <h3>एक्सेसरीज</h3>
+        <p>पर्स और अन्य फैशन एक्सेसरीज की विस्तृत रेंज</p>
+        <a href="https://wa.me/917982388702?text=मुझे%20फैशन%20एक्सेसरीज%20के%20बारे%20में%20जानकारी%20चाहिए" class="btn" style="margin-top: 15px; display: inline-block; padding: 8px 15px; font-size: 0.9rem;">
+          <i class="fab fa-whatsapp"></i> पूछताछ करें
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="gallery">
+    <h2 class="section-title">हमारी गैलरी</h2>
+    <p style="text-align: center; margin-bottom: 30px;">हमारे उत्पादों और स्टोर की झलक देखें</p>
+    
+    <div class="category-tabs">
+      <div class="category-tab active" data-category="lehenga">डिजाइनर लहँगा</div>
+      <div class="category-tab" data-category="blowj">डिजाइनर ब्लाउज</div>
+      <div class="category-tab" data-category="chunni">डिजाइनर चुन्नी</div>
+      <div class="category-tab" data-category="chunri">डिजाइनर चुनरी</div>
+      <div class="category-tab" data-category="gaghra">डिजाइनर घाघरा</div>
+      <div class="category-tab" data-category="lacha">डिजाइनर लाचा</div>
+      <div class="category-tab" data-category="pila-pomcha">डिजाइनर पीला पोमचा</div>
+      <div class="category-tab" data-category="suit">डिजाइनर सूट</div>
+    </div>
+    
+    <!-- Saree Gallery -->
+    <div class="gallery-category " id="saree-gallery">
+      <div class="gallery-grid">
+        <div class="image-item" onclick="openModal('saree', 0)">
+          <img src="Image/saree1.jpg" alt="डिजाइनर साड़ी 1" loading="lazy">
+          <div class="image-caption">डिजाइनर साड़ी 1</div>
+        </div>
+        <div class="image-item" onclick="openModal('saree', 1)">
+          <img src="Image/saree2.jpg" alt="डिजाइनर साड़ी 2" loading="lazy">
+          <div class="image-caption">डिजाइनर साड़ी 2</div>
+        </div>
+        <div class="image-item" onclick="openModal('saree', 2)">
+          <img src="Image/saree3.jpg" alt="डिजाइनर साड़ी 3" loading="lazy">
+          <div class="image-caption">डिजाइनर साड़ी 3</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Lehenga Gallery -->
+    <div class="gallery-category active" id="lehenga-gallery">
+      <div class="gallery-grid">
+        <div class="image-item" onclick="openModal('lehenga', 0)">
+          <img src="Image/Lengha/Lengha1.jpg" alt="डिजाइनर लहँगा 1" loading="lazy">
+          <div class="image-caption">डिजाइनर लहँगा 1</div>
+        </div>
+        <div class="image-item" onclick="openModal('lehenga', 1)">
+          <img src="Image/Lengha/Lengha2.jpg" alt="डिजाइनर लहँगा 2" loading="lazy">
+          <div class="image-caption">डिजाइनर लहँगा 2</div>
+        </div>
+        <div class="image-item" onclick="openModal('lehenga', 2)">
+          <img src="Image/Lengha/Lengha3.jpg" alt="डिजाइनर लहँगा 3" loading="lazy">
+          <div class="image-caption">डिजाइनर लहँगा 3</div>
+        </div>
+		 <div class="image-item" onclick="openModal('lehenga', 3)">
+          <img src="Image/Lengha/Lengha4.jpg" alt="डिजाइनर लहँगा 4" loading="lazy">
+          <div class="image-caption">डिजाइनर लहँगा 4</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blowj Gallery -->
+    <div class="gallery-category" id="blowj-gallery">
+      <div class="gallery-grid">
+        <div class="image-item" onclick="openModal('blowj', 0)">
+          <img src="Image/Blowj/Blowj1.jpg" alt="डिजाइनर ब्लाउज 1" loading="lazy">
+          <div class="image-caption">डिजाइनर ब्लाउज 1</div>
+        </div>
+       
+      </div>
+    </div>
+    
+    <!-- Chunni Gallery -->
+    <div class="gallery-category" id="chunni-gallery">
+      <div class="gallery-grid">
+        <div class="image-item" onclick="openModal('chunni', 0)">
+          <img src="Image/Chunni/Chunni1.jpg" alt="डिजाइनर चुन्नी 1" loading="lazy">
+          <div class="image-caption">डिजाइनर चुन्नी 1</div>
+        </div>
+        <div class="image-item" onclick="openModal('chunni', 1)">
+          <img src="Image/Chunni/Chunni2.jpg" alt="डिजाइनर चुन्नी 2" loading="lazy">
+          <div class="image-caption">डिजाइनर चुन्नी 2</div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- Chunri Gallery -->
+    <div class="gallery-category" id="chunri-gallery">
+      <div class="gallery-grid">
+        <div class="image-item" onclick="openModal('chunri', 0)">
+          <img src="Image/Chunri/Chunri1.jpg" alt="डिजाइनर चुनरी 1" loading="lazy">
+          <div class="image-caption">डिजाइनर चुनरी 1</div>
+        </div>
+        <div class="image-item" onclick="openModal('chunri', 1)">
+          <img src="Image/Chunri/Chunri2.jpg" alt="डिजाइनर चुनरी 2" loading="lazy">
+          <div class="image-caption">डिजाइनर चुनरी 2</div>
+        </div>
+        <div class="image-item" onclick="openModal('chunri', 2)">
+          <img src="Image/Chunri/Chunri3.jpg" alt="डिजाइनर चुनरी 3" loading="lazy">
+          <div class="image-caption">डिजाइनर चुनरी 3</div>
+        </div>
+		<div class="image-item" onclick="openModal('chunri', 3)">
+          <img src="Image/Chunri/Chunri4.jpg" alt="डिजाइनर चुनरी 4" loading="lazy">
+          <div class="image-caption">डिजाइनर चुनरी 4</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Gaghra Gallery -->
+    <div class="gallery-category" id="gaghra-gallery">
+      <div class="gallery-grid">
+        <div class="image-item" onclick="openModal('gaghra', 0)">
+          <img src="Image/Gaghra/Gaghra1.jpg" alt="डिजाइनर घाघरा 1" loading="lazy">
+          <div class="image-caption">डिजाइनर घाघरा 1</div>
+        </div>
+        <div class="image-item" onclick="openModal('gaghra', 1)">
+          <img src="Image/Gaghra/Gaghra2.jpg" alt="डिजाइनर घाघरा 2" loading="lazy">
+          <div class="image-caption">डिजाइनर घाघरा 2</div>
+        </div>
+        <div class="image-item" onclick="openModal('gaghra', 2)">
+          <img src="Image/Gaghra/Gaghra3.jpg" alt="डिजाइनर घाघरा 3" loading="lazy">
+          <div class="image-caption">डिजाइनर घाघरा 3</div>
+        </div>
+		<div class="image-item" onclick="openModal('gaghra', 3)">
+          <img src="Image/Gaghra/Gaghra4.jpg" alt="डिजाइनर घाघरा 4" loading="lazy">
+          <div class="image-caption">डिजाइनर घाघरा 4</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Lacha Gallery -->
+    <div class="gallery-category" id="lacha-gallery">
+      <div class="gallery-grid">
+        <div class="image-item" onclick="openModal('lacha', 0)">
+          <img src="Image/Lacha/Lacha1.jpg" alt="डिजाइनर लाचा 1" loading="lazy">
+          <div class="image-caption">डिजाइनर लाचा 1</div>
+        </div>
+        <div class="image-item" onclick="openModal('lacha', 1)">
+          <img src="Image/Lacha/Lacha2.jpg" alt="डिजाइनर लाचा 2" loading="lazy">
+          <div class="image-caption">डिजाइनर लाचा 2</div>
+        </div>
+        <div class="image-item" onclick="openModal('lacha', 2)">
+          <img src="Image/Lacha/Lacha3.jpg" alt="डिजाइनर लाचा 3" loading="lazy">
+          <div class="image-caption">डिजाइनर लाचा 3</div>
+        </div>
+		 <div class="image-item" onclick="openModal('lacha', 3)">
+          <img src="Image/Lacha/Lacha4.jpg" alt="डिजाइनर लाचा 4" loading="lazy">
+          <div class="image-caption">डिजाइनर लाचा 4</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Pila Pomcha Gallery -->
+    <div class="gallery-category" id="pila-pomcha-gallery">
+      <div class="gallery-grid">
+        <div class="image-item" onclick="openModal('pila-pomcha', 0)">
+          <img src="Image/PilaPomcha/PilaPomcha1.jpg" alt="डिजाइनर पीला पोमचा 1" loading="lazy">
+          <div class="image-caption">डिजाइनर पीला पोमचा 1</div>
+        </div>
+        <div class="image-item" onclick="openModal('pila-pomcha', 1)">
+          <img src="Image/PilaPomcha/PilaPomcha2.jpg" alt="डिजाइनर पीला पोमचा 2" loading="lazy">
+          <div class="image-caption">डिजाइनर पीला पोमचा 2</div>
+        </div>
+         <div class="image-item" onclick="openModal('pila-pomcha', 2)">
+          <img src="Image/PilaPomcha/Pomcha/Pomcha1.jpg" alt="डिजाइनर पोमचा 3" loading="lazy">
+          <div class="image-caption">डिजाइनर पोमचा 3</div>
+        </div>
+		 <div class="image-item" onclick="openModal('pila-pomcha', 3)">
+          <img src="Image/PilaPomcha/Pomcha/Pomcha2.jpg" alt="डिजाइनर पोमचा 4" loading="lazy">
+          <div class="image-caption">डिजाइनर पोमचा 4</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Suit Gallery -->
+    <div class="gallery-category" id="suit-gallery">
+      <div class="gallery-grid">
+        <div class="image-item" onclick="openModal('suit', 0)">
+          <img src="Image/Suit/Suit1.jpg" alt="डिजाइनर सूट 1" loading="lazy">
+          <div class="image-caption">डिजाइनर सूट 1</div>
+        </div>
+        <div class="image-item" onclick="openModal('suit', 1)">
+          <img src="Image/Suit/Suit2.jpg" alt="डिजाइनर सूट 2" loading="lazy">
+          <div class="image-caption">डिजाइनर सूट 2</div>
+        </div>
+      
+      </div>
+    </div>
+    
+    <!-- Cosmetic Gallery -->
+    
+	
+    
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div class="gallery-nav">
+        <button class="gallery-nav-btn prev-btn" onclick="changeImage(-1)">&#10094;</button>
+        <button class="gallery-nav-btn next-btn" onclick="changeImage(1)">&#10095;</button>
+      </div>
+      <img class="modal-content" id="modalImage">
+      <div class="caption" id="caption"></div>
+      <div class="thumbnail-container" id="thumbnails"></div>
+    </div>
+</section>
+   
+  <section id="contact">
+    <h2 class="section-title">संपर्क करें</h2>
+    <div class="contact">
+      <div class="contact-info">
+        <div class="contact-card">
+          <i class="fas fa-user"></i>
+          <h3>मालिक</h3>
+          <p>प्रो. अनुष्का खाटा</p>
+        </div>
+        
+        <div class="contact-card">
+          <i class="fas fa-phone"></i>
+          <h3>फोन नंबर</h3>
+          <p>7982388702</p>
+          <p>7976909879</p>
+        </div>
+        
+        <div class="contact-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>पता</h3>
+          <p>मीणा मोहल्ला, ग्राम पंचायत डाबला, डाक पिन 332718</p>
+        </div>
+      </div>
+      
+      <div class="map-container" style="margin-top: 30px; text-align: center;">
+        <h3 style="color: var(--primary); margin-bottom: 15px;">हमारा स्थान</h3>
+        <a href="https://maps.app.goo.gl/8SbjepqgcakpfmnC9" class="btn" style="margin-top: 20px; display: inline-block;">
+          <i class="fas fa-map-marker-alt"></i> Google Maps पर देखें
+        </a>
+      </div>
+      
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="https://wa.me/917982388702" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> व्हाट्सएप पर संपर्क करें</a>
+      </div>
+    </div>
+  </section>
+  
+  <a href="https://wa.me/917982388702" class="whatsapp-btn"><i class="fab fa-whatsapp"></i> ऑर्डर करें</a>
+  
+  <footer>
+    <div class="social-links">
+      <a href="https://www.facebook.com/tinku.meena.73345"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/917982388702"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p>&copy; 2025 अनुष्का बुटिक | सभी अधिकार सुरक्षित</p>
+    <p>वेबसाइट डिज़ाइन: आपकी टीम</p>
+  </footer>
+
+  <script>
+  
+   // Gallery functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      // Category tabs
+      const tabs = document.querySelectorAll('.category-tab');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+          // Remove active class from all tabs and galleries
+          document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+          document.querySelectorAll('.gallery-category').forEach(g => g.classList.remove('active'));
+          
+          // Add active class to clicked tab and corresponding gallery
+          this.classList.add('active');
+          const category = this.getAttribute('data-category');
+          document.getElementById(`${category}-gallery`).classList.add('active');
+        });
+      });
+    });
+
+    // Image gallery data (replace with your actual image paths)
+    const galleryData = {
+	
+	 lehenga: [
+    { src: 'Image/Lengha/Lengha1.jpg', alt: 'डिजाइनर लहँगा 1', caption: 'डिजाइनर लहँगा 1' },
+    { src: 'Image/Lengha/Lengha2.jpg', alt: 'डिजाइनर लहँगा 2', caption: 'डिजाइनर लहँगा 2' },
+	{ src: 'Image/Lengha/Lengha3.jpg', alt: 'डिजाइनर लहँगा 3', caption: 'डिजाइनर लहँगा 3' },
+	{ src: 'Image/Lengha/Lengha4.jpg', alt: 'डिजाइनर लहँगा 4', caption: 'डिजाइनर लहँगा 4' }
+	],
+	
+	    saree: [
+    { src: 'Image/Saree/saree1.jpg', alt: 'डिजाइनर साड़ी 1', caption: 'डिजाइनर साड़ी 1' },
+    { src: 'Image/Saree/saree2.jpg', alt: 'डिजाइनर साड़ी 2', caption: 'डिजाइनर साड़ी 2' },
+	{ src: 'Image/Saree/saree3.jpg', alt: 'डिजाइनर साड़ी 3', caption: 'डिजाइनर साड़ी 3' }
+	],
+	 
+  blowj: [
+    { src: 'Image/Blowj/Blowj1.jpg', alt: 'डिजाइनर ब्लाउज 1', caption: 'डिजाइनर ब्लाउज 1' }
+     ],
+  chunni: [
+    { src: 'Image/Chunni/Chunni1.jpg', alt: 'डिजाइनर चुन्नी 1', caption: 'डिजाइनर चुन्नी 1' },
+    { src: 'Image/Chunni/Chunni2.jpg', alt: 'डिजाइनर चुन्नी 2', caption: 'डिजाइनर चुन्नी 2' }
+  ],
+  chunri: [
+    { src: 'Image/Chunri/Chunri1.jpg', alt: 'डिजाइनर चुनरी 1', caption: 'डिजाइनर चुनरी 1' },
+    { src: 'Image/Chunri/Chunri2.jpg', alt: 'डिजाइनर चुनरी 2', caption: 'डिजाइनर चुनरी 2' },
+    { src: 'Image/Chunri/Chunri3.jpg', alt: 'डिजाइनर चुनरी 3', caption: 'डिजाइनर चुनरी 3' },
+	{ src: 'Image/Chunri/Chunri4.jpg', alt: 'डिजाइनर चुनरी 4', caption: 'डिजाइनर चुनरी 4' },
+    { src: 'Image/Chunri/Chunri5.jpg', alt: 'डिजाइनर चुनरी 5', caption: 'डिजाइनर चुनरी 5' },
+    { src: 'Image/Chunri/Chunri6.jpg', alt: 'डिजाइनर चुनरी 6', caption: 'डिजाइनर चुनरी 6' },
+	{ src: 'Image/Chunri/Chunri7.jpg', alt: 'डिजाइनर चुनरी 7', caption: 'डिजाइनर चुनरी 7' },
+    { src: 'Image/Chunri/Chunri8.jpg', alt: 'डिजाइनर चुनरी 8', caption: 'डिजाइनर चुनरी 8' },
+    { src: 'Image/Chunri/Chunri9.jpg', alt: 'डिजाइनर चुनरी 9', caption: 'डिजाइनर चुनरी 9' },
+	{ src: 'Image/Chunri/Chunri10.jpg', alt: 'डिजाइनर चुनरी 10', caption: 'डिजाइनर चुनरी 10' },
+    { src: 'Image/Chunri/Chunri11.jpg', alt: 'डिजाइनर चुनरी 11', caption: 'डिजाइनर चुनरी 11' },
+    { src: 'Image/Chunri/Chunri12.jpg', alt: 'डिजाइनर चुनरी 12', caption: 'डिजाइनर चुनरी 12' },
+	{ src: 'Image/Chunri/Chunri13.jpg', alt: 'डिजाइनर चुनरी 13', caption: 'डिजाइनर चुनरी 13' },
+    { src: 'Image/Chunri/Chunri14.jpg', alt: 'डिजाइनर चुनरी 14', caption: 'डिजाइनर चुनरी 14' },
+    { src: 'Image/Chunri/Chunri15.jpg', alt: 'डिजाइनर चुनरी 15', caption: 'डिजाइनर चुनरी 15' },
+	{ src: 'Image/Chunri/Chunri16.jpg', alt: 'डिजाइनर चुनरी 16', caption: 'डिजाइनर चुनरी 16' },
+    { src: 'Image/Chunri/Chunri17.jpg', alt: 'डिजाइनर चुनरी 17', caption: 'डिजाइनर चुनरी 17' },
+    { src: 'Image/Chunri/Chunri18.jpg', alt: 'डिजाइनर चुनरी 18', caption: 'डिजाइनर चुनरी 18' },
+	{ src: 'Image/Chunri/Chunri19.jpg', alt: 'डिजाइनर चुनरी 19', caption: 'डिजाइनर चुनरी 19' },
+    { src: 'Image/Chunri/Chunri20.jpg', alt: 'डिजाइनर चुनरी 20', caption: 'डिजाइनर चुनरी 20' },
+    { src: 'Image/Chunri/Chunri21.jpg', alt: 'डिजाइनर चुनरी 21', caption: 'डिजाइनर चुनरी 21' },
+	{ src: 'Image/Chunri/Chunri22.jpg', alt: 'डिजाइनर चुनरी 22', caption: 'डिजाइनर चुनरी 22' },
+    { src: 'Image/Chunri/Chunri23.jpg', alt: 'डिजाइनर चुनरी 23', caption: 'डिजाइनर चुनरी 23' },
+    { src: 'Image/Chunri/Chunri24.jpg', alt: 'डिजाइनर चुनरी 24', caption: 'डिजाइनर चुनरी 24' },
+	{ src: 'Image/Chunri/Chunri25.jpg', alt: 'डिजाइनर चुनरी 25', caption: 'डिजाइनर चुनरी 25' },
+    { src: 'Image/Chunri/Chunri26.jpg', alt: 'डिजाइनर चुनरी 26', caption: 'डिजाइनर चुनरी 26' }
+  ],
+  gaghra: [
+    { src: 'Image/Gaghra/Gaghra1.jpg', alt: 'डिजाइनर घाघरा 1', caption: 'डिजाइनर घाघरा 1' },
+    { src: 'Image/Gaghra/Gaghra2.jpg', alt: 'डिजाइनर घाघरा 2', caption: 'डिजाइनर घाघरा 2' },
+    { src: 'Image/Gaghra/Gaghra3.jpg', alt: 'डिजाइनर घाघरा 3', caption: 'डिजाइनर घाघरा 3' },
+	{ src: 'Image/Gaghra/Gaghra4.jpg', alt: 'डिजाइनर घाघरा 4', caption: 'डिजाइनर घाघरा 4' },
+    { src: 'Image/Gaghra/Gaghra5.jpg', alt: 'डिजाइनर घाघरा 5', caption: 'डिजाइनर घाघरा 5' },
+    { src: 'Image/Gaghra/Gaghra6.jpg', alt: 'डिजाइनर घाघरा 6', caption: 'डिजाइनर घाघरा 6' },
+	{ src: 'Image/Gaghra/Gaghra7.jpg', alt: 'डिजाइनर घाघरा 7', caption: 'डिजाइनर घाघरा 7' },
+    { src: 'Image/Gaghra/Gaghra8.jpg', alt: 'डिजाइनर घाघरा 8', caption: 'डिजाइनर घाघरा 8' },
+    { src: 'Image/Gaghra/Gaghra9.jpg', alt: 'डिजाइनर घाघरा 9', caption: 'डिजाइनर घाघरा 9' },
+	{ src: 'Image/Gaghra/Gaghra10.jpg', alt: 'डिजाइनर घाघरा 10', caption: 'डिजाइनर घाघरा 10' },
+    { src: 'Image/Gaghra/Gaghra11.jpg', alt: 'डिजाइनर घाघरा 11', caption: 'डिजाइनर घाघरा 11' },
+    { src: 'Image/Gaghra/Gaghra12.jpg', alt: 'डिजाइनर घाघरा 12', caption: 'डिजाइनर घाघरा 12' },
+	{ src: 'Image/Gaghra/Gaghra13.jpg', alt: 'डिजाइनर घाघरा 13', caption: 'डिजाइनर घाघरा 13' },
+    { src: 'Image/Gaghra/Gaghra14.jpg', alt: 'डिजाइनर घाघरा 14', caption: 'डिजाइनर घाघरा 14' },
+    { src: 'Image/Gaghra/Gaghra15.jpg', alt: 'डिजाइनर घाघरा 15', caption: 'डिजाइनर घाघरा 15' },
+	{ src: 'Image/Gaghra/Gaghra16.jpg', alt: 'डिजाइनर घाघरा 16', caption: 'डिजाइनर घाघरा 16' },
+    { src: 'Image/Gaghra/Gaghra17.jpg', alt: 'डिजाइनर घाघरा 17', caption: 'डिजाइनर घाघरा 17' }
+	
+  ],
+  lacha: [
+    { src: 'Image/Lacha/Lacha1.jpg', alt: 'डिजाइनर लाचा 1', caption: 'डिजाइनर लाचा 1' },
+    { src: 'Image/Lacha/Lacha2.jpg', alt: 'डिजाइनर लाचा 2', caption: 'डिजाइनर लाचा 2' },
+    { src: 'Image/Lacha/Lacha3.jpg', alt: 'डिजाइनर लाचा 3', caption: 'डिजाइनर लाचा 3' },
+	{ src: 'Image/Lacha/Lacha4.jpg', alt: 'डिजाइनर लाचा 4', caption: 'डिजाइनर लाचा 4' },
+    { src: 'Image/Lacha/Lacha5.jpg', alt: 'डिजाइनर लाचा 5', caption: 'डिजाइनर लाचा 5' },
+    { src: 'Image/Lacha/Lacha6.jpg', alt: 'डिजाइनर लाचा 6', caption: 'डिजाइनर लाचा 6' },
+	{ src: 'Image/Lacha/Lacha7.jpg', alt: 'डिजाइनर लाचा 7', caption: 'डिजाइनर लाचा 7' },
+    { src: 'Image/Lacha/Lacha8.jpg', alt: 'डिजाइनर लाचा 8', caption: 'डिजाइनर लाचा 8' },
+    { src: 'Image/Lacha/Lacha9.jpg', alt: 'डिजाइनर लाचा 9', caption: 'डिजाइनर लाचा 9' },
+	{ src: 'Image/Lacha/Lacha10.jpg', alt: 'डिजाइनर लाचा 10', caption: 'डिजाइनर लाचा 10' },
+    { src: 'Image/Lacha/Lacha11.jpg', alt: 'डिजाइनर लाचा 11', caption: 'डिजाइनर लाचा 11' },
+    { src: 'Image/Lacha/Lacha12.jpg', alt: 'डिजाइनर लाचा 12', caption: 'डिजाइनर लाचा 12' },
+	{ src: 'Image/Lacha/Lacha13.jpg', alt: 'डिजाइनर लाचा 13', caption: 'डिजाइनर लाचा 13' },
+	{ src: 'Image/Lacha/Lacha14.jpg', alt: 'डिजाइनर लाचा 14', caption: 'डिजाइनर लाचा 14' },
+    { src: 'Image/Lacha/Lacha15.jpg', alt: 'डिजाइनर लाचा 15', caption: 'डिजाइनर लाचा 15' },
+    { src: 'Image/Lacha/Lacha16.jpg', alt: 'डिजाइनर लाचा 16', caption: 'डिजाइनर लाचा 16' },
+	{ src: 'Image/Lacha/Lacha17.jpg', alt: 'डिजाइनर लाचा 17', caption: 'डिजाइनर लाचा 17' },
+    { src: 'Image/Lacha/Lacha18.jpg', alt: 'डिजाइनर लाचा 18', caption: 'डिजाइनर लाचा 18' }
+    
+  ],
+  'pila-pomcha': [
+    { src: 'Image/PilaPomcha/PilaPomcha1.jpg', alt: 'डिजाइनर पीला पोमचा 1', caption: 'डिजाइनर पीला पोमचा 1' },
+    { src: 'Image/PilaPomcha/PilaPomcha2.jpg', alt: 'डिजाइनर पीला पोमचा 2', caption: 'डिजाइनर पीला पोमचा 2' },
+    { src: 'Image/PilaPomcha/Pomcha/Pomcha1.jpg', alt: 'डिजाइनर पोमचा 3', caption: 'डिजाइनर पोमचा 3' },
+	{ src: 'Image/PilaPomcha/Pomcha/Pomcha2.jpg', alt: 'डिजाइनर पोमचा 4', caption: 'डिजाइनर पोमचा 4' },
+    { src: 'Image/PilaPomcha/Pomcha/Pomcha3.jpg', alt: 'डिजाइनर पोमचा 5', caption: 'डिजाइनर पोमचा 5' },
+    { src: 'Image/PilaPomcha/Pomcha/Pomcha4.jpg', alt: 'डिजाइनर पोमचा 6', caption: 'डिजाइनर पोमचा 6' }
+  ],
+  suit: [
+    { src: 'Image/Suit/Suit1.jpg', alt: 'डिजाइनर सूट 1', caption: 'डिजाइनर सूट 1' },
+    { src: 'Image/Suit/Suit2.jpg', alt: 'डिजाइनर सूट 2', caption: 'डिजाइनर सूट 2' }
+    
+  ]
+    };
+
+    let currentCategory = '';
+    let currentIndex = 0;
+
+    function openModal(category, index) {
+      currentCategory = category;
+      currentIndex = index;
+      const modal = document.getElementById('imageModal');
+      const modalImg = document.getElementById('modalImage');
+      const captionText = document.getElementById('caption');
+      const thumbnailsContainer = document.getElementById('thumbnails');
+      
+      // Set the main image
+      modalImg.src = galleryData[category][index].src;
+      modalImg.alt = galleryData[category][index].alt;
+      captionText.innerHTML = galleryData[category][index].caption;
+      
+      // Create thumbnails
+      thumbnailsContainer.innerHTML = '';
+      galleryData[category].forEach((img, i) => {
+        const thumbnail = document.createElement('img');
+        thumbnail.src = img.src;
+        thumbnail.alt = img.alt;
+        thumbnail.className = 'thumbnail';
+        if (i === index) thumbnail.classList.add('active');
+        thumbnail.onclick = () => {
+          currentIndex = i;
+          updateModal();
+        };
+        thumbnailsContainer.appendChild(thumbnail);
+      });
+      
+      modal.style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById('imageModal').style.display = "none";
+    }
+
+    function changeImage(n) {
+      currentIndex += n;
+      // Wrap around if at beginning or end
+      if (currentIndex < 0) currentIndex = galleryData[currentCategory].length - 1;
+      if (currentIndex >= galleryData[currentCategory].length) currentIndex = 0;
+      updateModal();
+    }
+
+    function updateModal() {
+      const modalImg = document.getElementById('modalImage');
+      const captionText = document.getElementById('caption');
+      const thumbnails = document.querySelectorAll('.thumbnail');
+      
+      modalImg.src = galleryData[currentCategory][currentIndex].src;
+      modalImg.alt = galleryData[currentCategory][currentIndex].alt;
+      captionText.innerHTML = galleryData[currentCategory][currentIndex].caption;
+      
+      // Update active thumbnail
+      thumbnails.forEach((thumb, i) => {
+        if (i === currentIndex) {
+          thumb.classList.add('active');
+        } else {
+          thumb.classList.remove('active');
+        }
+      });
+    }
+
+    // Close modal when clicking outside the image
+    window.onclick = function(event) {
+      const modal = document.getElementById('imageModal');
+      if (event.target == modal) {
+        closeModal();
+      }
+    }
+  
+  
+    document.addEventListener('DOMContentLoaded', function() {
+  // Mobile menu toggle
+  const menuToggle = document.createElement('button');
+  menuToggle.className = 'menu-toggle';
+  menuToggle.innerHTML = '<i class="fas fa-bars"></i> मेनू';
+  document.querySelector('nav').prepend(menuToggle);
+  
+  menuToggle.addEventListener('click', function() {
+    document.querySelector('nav ul').classList.toggle('show');
+  });
+
+  // Order buttons functionality
+  const orderButtons = document.querySelectorAll('.product-order-btn, .order-btn');
+  orderButtons.forEach(button => {
+    button.addEventListener('click', function(e) {
+      if(!this.href) {
+        e.preventDefault();
+        const productCard = this.closest('.product-card, .image-item');
+        const productName = productCard.querySelector('.product-title, .image-caption').textContent;
+      }
+    });
+  });
+});
+  </script>
+</body>
+</html>
